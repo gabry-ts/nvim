@@ -135,6 +135,7 @@ return {
         "typescript",
         "vim",
         "yaml",
+        "kdl",
       },
     },
   },
