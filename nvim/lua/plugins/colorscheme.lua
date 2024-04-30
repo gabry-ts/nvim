@@ -11,6 +11,10 @@ return {
     lazy = true,
     name = "catppuccin",
     opts = {
+      background = { -- :h background
+        light = "latte",
+        dark = "mocha",
+      },
       color_overrides = {
         mocha = {
           base = "#000000",
