@@ -130,6 +130,7 @@ return {
         "json",
         "lua",
         "markdown",
+        "prisma",
         "markdown_inline",
         "python",
         "query",
