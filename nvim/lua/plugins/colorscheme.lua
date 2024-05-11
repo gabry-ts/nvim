@@ -7,12 +7,12 @@ return {
     priority = 1000,
     opts = {},
   },
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+  { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "monokai-pro-machine",
+      colorscheme = "moonfly",
     },
   },
-  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
-  { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },
 }
