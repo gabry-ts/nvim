@@ -13,4 +13,6 @@ return {
       colorscheme = "monokai-pro-machine",
     },
   },
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+  { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },
 }
