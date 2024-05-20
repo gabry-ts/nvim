@@ -1,5 +1,4 @@
 return {
-  -- add gruvbox
   { "loctvl842/monokai-pro.nvim" },
   {
     "folke/tokyonight.nvim",

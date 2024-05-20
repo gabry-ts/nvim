@@ -54,12 +54,22 @@ return {
     },
     -- change some options
     opts = {
+      pickers = {
+        colorscheme = {
+          enable_preview = true,
+        },
+      },
       defaults = {
         file_ignore_patterns = {
           "^node_modules/",
         },
         layout_strategy = "horizontal",
-        layout_config = { prompt_position = "top" },
+        layout_config = {
+          prompt_position = "top",
+          horizontal = {
+            preview_cutoff = 0,
+          },
+        },
         sorting_strategy = "ascending",
         winblend = 0,
       },
