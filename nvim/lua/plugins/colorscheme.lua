@@ -15,6 +15,7 @@ return {
     --   config = bar
     --   end,
   },
+  { "rose-pine/neovim", name = "rose-pine" },
   {
 
     "LazyVim/LazyVim",
