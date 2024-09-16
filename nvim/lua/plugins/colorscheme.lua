@@ -16,11 +16,12 @@ return {
     --   end,
   },
   { "rose-pine/neovim", name = "rose-pine" },
+  { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },
   {
 
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "monokai-pro-spectrum",
+      colorscheme = "moonfly",
     },
   },
 }
