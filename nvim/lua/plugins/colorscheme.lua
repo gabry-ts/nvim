@@ -15,6 +15,7 @@ return {
     --   config = bar
     --   end,
   },
+  { "projekt0n/github-nvim-theme" },
   { "rose-pine/neovim", name = "rose-pine" },
   { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },
   {
