@@ -25,22 +25,19 @@ return {
       end
     end
 
-    -- Aggiungi al menu which-key
     local wk = require("which-key")
-    wk.register({
-      k = {
-        name = "Venn",
-        v = { "<cmd>lua Toggle_venn()<CR>", "Toggle Venn" },
-        J = { "<C-v>j:VBox<CR>", "Draw Down" },
-        K = { "<C-v>k:VBox<CR>", "Draw Up" },
-        L = { "<C-v>l:VBox<CR>", "Draw Right" },
-        H = { "<C-v>h:VBox<CR>", "Draw Left" },
-      },
-    }, { prefix = "<leader>" })
+    wk.setup()
+    wk.add({
+      { "<leader>k", desc = "Venn" },
+      { "<leader>kH", "<C-v>h:VBox<CR>", desc = "Draw Left" },
+      { "<leader>kJ", "<C-v>j:VBox<CR>", desc = "Draw Down" },
+      { "<leader>kK", "<C-v>k:VBox<CR>", desc = "Draw Up" },
+      { "<leader>kL", "<C-v>l:VBox<CR>", desc = "Draw Right" },
+      { "<leader>kv", "<cmd>lua Toggle_venn()<CR>", desc = "Toggle Venn" },
+    })
 
-    -- Aggiungi la mappatura per la modalità visuale
-    wk.register({
-      f = { ":VBox<CR>", "Draw Box" },
-    }, { mode = "v", prefix = "<leader>v" })
+    wk.add({
+      { "<leader>vf", ":VBox<CR>", desc = "Draw Box", mode = "v" },
+    })
   end,
 }
