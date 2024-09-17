@@ -7,7 +7,9 @@ return {
     local dashboard = require("alpha.themes.dashboard")
     local ascii = require("ascii")
 
-    dashboard.section.header.val = ascii.art.misc.skulls.threeskulls_big_v1
+    -- dashboard.section.header.val = ascii.art.misc.skulls.threeskulls_big_v1
+    dashboard.section.header.val = ascii.art.text.neovim.sharp
+
     -- dashboard.section.header.val = vim.split(logo, "\n")
     -- stylua: ignore
     dashboard.section.buttons.val = {
