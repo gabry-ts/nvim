@@ -18,6 +18,7 @@ return {
   { "projekt0n/github-nvim-theme" },
   { "rose-pine/neovim", name = "rose-pine" },
   { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000 },
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000, lazy = false },
   {
 
     "LazyVim/LazyVim",
