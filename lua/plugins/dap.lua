@@ -10,6 +10,7 @@ return {
   { "nvim-neotest/nvim-nio" },
   {
     "mfussenegger/nvim-dap",
+    commit = "7ff6936010b7222fea2caea0f67ed77f1b7c60dd",
     config = function()
       local dap = require("dap")
 
