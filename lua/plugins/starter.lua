@@ -50,6 +50,10 @@ return {
         -- pyright will be automatically installed with mason and loaded with lspconfig
         pyright = {},
       },
+      bacon_ls = {
+        enabled = diagnostics == "bacon-ls",
+      },
+      rust_analyzer = { enabled = false },
     },
   },
 
@@ -114,6 +118,8 @@ return {
         "vim",
         "yaml",
         "kdl",
+        "rust",
+        "ron",
       },
     },
   },
@@ -167,6 +173,8 @@ return {
         "shellcheck",
         "shfmt",
         "flake8",
+        "codelldb",
+        "bacon",
       },
     },
   },
