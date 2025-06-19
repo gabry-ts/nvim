@@ -48,10 +48,10 @@ return {
     },
     config = true,
     keys = {
-      { "<leader>ac", "<cmd>ClaudeCode<cr>", desc = "Toggle Claude" },
-      { "<leader>as", "<cmd>ClaudeCodeSend<cr>", mode = "v", desc = "Send to Claude" },
-      { "<leader>ao", "<cmd>ClaudeCodeOpen<cr>", desc = "Open Claude" },
-      { "<leader>ax", "<cmd>ClaudeCodeClose<cr>", desc = "Close Claude" },
+      { "<leader>jc", "<cmd>ClaudeCode<cr>", desc = "Toggle Claude" },
+      { "<leader>js", "<cmd>ClaudeCodeSend<cr>", mode = "v", desc = "Send to Claude" },
+      { "<leader>jo", "<cmd>ClaudeCodeOpen<cr>", desc = "Open Claude" },
+      { "<leader>jx", "<cmd>ClaudeCodeClose<cr>", desc = "Close Claude" },
     },
   },
 }
