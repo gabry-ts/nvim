@@ -11,3 +11,5 @@ vim.g.lazyvim_rust_diagnostics = "rust-analyzer"
 
 -- set wrap as default
 vim.opt.wrap = true
+
+vim.g.lazyvim_python_ruff = "ruff"
