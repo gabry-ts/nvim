@@ -1,0 +1,25 @@
+exclude = [
+    ".git",
+    "*.tmp",
+    "lazy-lock.json"
+]
+
+[lints]
+unused_variable = "allow"
+shadowing = "allow"
+incorrect_standard_library_use = "allow"
+undefined_variable = "allow"
+unused_import = "allow"
+empty_block = "allow"
+multiple_statements = "warn"
+unreachable_code = "warn"
+unbalanced_assignments = "allow"
+unscoped_variables = "allow"
+
+[config]
+# Define globals for Neovim
+globals = [
+    "vim",
+    "LazyVim", "Snacks", "unpack",
+    "describe", "it", "before_each", "after_each", "pending", "setup", "teardown"
+]
